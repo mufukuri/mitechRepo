@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="mTutor" transaction-type="RESOURCE_LOCAL">
+		<class>zw.co.mitech.mtutor.entities.User</class>
+		<class>zw.co.mitech.mtutor.entities.TopicQuestionCounter</class>
+		<class>zw.co.mitech.mtutor.entities.TopicMarker</class>
+		<class>zw.co.mitech.mtutor.entities.Topic</class>
+		<class>zw.co.mitech.mtutor.entities.Teacher</class>
+		<class>zw.co.mitech.mtutor.entities.Subject</class>
+		<class>zw.co.mitech.mtutor.entities.StudentTopic</class>
+		<class>zw.co.mitech.mtutor.entities.StudentSubject</class>
+		<class>zw.co.mitech.mtutor.entities.StudentQuiz</class>
+		<class>zw.co.mitech.mtutor.entities.StudentConcept</class>
+		<class>zw.co.mitech.mtutor.entities.Student</class>
+		<class>zw.co.mitech.mtutor.entities.SchoolClass</class>
+		<class>zw.co.mitech.mtutor.entities.School</class>
+		<class>zw.co.mitech.mtutor.entities.QuizQuestion</class>
+		<class>zw.co.mitech.mtutor.entities.QuizCounter</class>
+		<class>zw.co.mitech.mtutor.entities.Quiz</class>
+		<class>zw.co.mitech.mtutor.entities.Counter</class>
+		<class>zw.co.mitech.mtutor.entities.ConceptQuestionCounter</class>
+		<class>zw.co.mitech.mtutor.entities.Concept</class>
+		<class>zw.co.mitech.mtutor.entities.Assignment</class>
+		<class>zw.co.mitech.mtutor.entities.AcademicLevel</class>
+		<properties>
+		</properties>
+	</persistence-unit>
+</persistence>
